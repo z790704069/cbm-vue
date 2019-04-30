@@ -1,0 +1,45 @@
+.page-#{$name} {
+  height: 100%;
+  width: 100%;
+  .head {
+    height: $g-head-height;
+    .head-left {
+      height: 100%;
+      width: $g-head-left-width;
+      background-color: $g-head-left-bg-color;
+      float: left;
+    }
+    .head-right {
+      height: 100%;
+      width: $g-head-right-width;
+      background-color: $g-head-right-bg-color;
+      float: left;
+    }
+  }
+  .content {
+    height: $g-content-height;
+    .content-left {
+      height: 100%;
+      width: $g-content-left-width;
+      background-color: $g-content-left-bg-color;
+      float: left;
+    }
+    .content-middle {
+      height: 100%;
+      width: $g-content-middle-width;
+      background-color: $g-content-middle-bg-color;
+      float: left;
+    }
+    .content-right {
+      height: 100%;
+      width: $g-content-right-width;
+      background-color: $g-content-right-bg-color;
+      float: left;
+    }
+  }
+  .footer {
+    height: 100%;
+    height: g-footer-height;
+    background-color: $g-footer-bg-color;
+  }
+}

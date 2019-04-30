@@ -1,0 +1,33 @@
+$name: "default";
+
+// 头部
+$g-head-height: 10%;
+$g-head-left-width: 30%;
+$g-head-right-width: 70%;
+$g-head-left-bg-color: white;
+$g-head-right-bg-color: white;
+
+// 中间
+$g-content-height: 80%;
+$g-content-left-width: 15%;
+$g-content-middle-width: 70%;
+$g-content-right-width: 15%;
+$g-content-left-bg-color: white;
+$g-content-middle-bg-color: white;
+$g-content-right-bg-color: white;
+
+// 底部
+$g-footer-height: 10%;
+$g-footer-bg-color: white;
+
+// 通用样式
+.cbm_title {
+  font-size: 30px;
+  font-family:"Times New Roman", Times, serif;
+}
+.cbm-sign-in {
+  font-size: 15px;
+  font-family:"Times New Roman", Times, serif;
+}
+
+@import "./../main.scss";
