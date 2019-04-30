@@ -1,4 +1,4 @@
-# cbm-vuetest
+# cbm-vue
 
 ## Project setup
 ```
