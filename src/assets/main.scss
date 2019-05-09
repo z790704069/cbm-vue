@@ -2,22 +2,25 @@
   height: 100%;
   width: 100%;
   .head {
+    width: 100%;
     height: $g-head-height;
     .head-left {
       height: 100%;
       width: $g-head-left-width;
       background-color: $g-head-left-bg-color;
-      float: left;
+      display: inline-block;
     }
     .head-right {
       height: 100%;
       width: $g-head-right-width;
       background-color: $g-head-right-bg-color;
-      float: left;
+      display: inline-block;
     }
   }
   .content {
+    margin-top: 1%;
     height: $g-content-height;
+    width: 100%;
     .content-left {
       height: 100%;
       width: $g-content-left-width;
@@ -38,8 +41,7 @@
     }
   }
   .footer {
-    height: 100%;
-    height: g-footer-height;
+    height: $g-footer-height;
     background-color: $g-footer-bg-color;
   }
 }

@@ -1,4 +1,4 @@
-import axios from 'axios'; 
+import axios from 'axios';
 
 // 参数封装
 const searchParam = params => {
@@ -17,7 +17,7 @@ const searchParam = params => {
 const axiosGetResponse = (url, param = null) => {
   if (param === null) param = {};
   return axios.get(url, {
-    params: param
+    params: param, withCredentials: true,
   }).then(res => {
     return res.data;
   }).catch(error => {

@@ -2,13 +2,13 @@ $name: "default";
 
 // 头部
 $g-head-height: 10%;
-$g-head-left-width: 30%;
-$g-head-right-width: 70%;
+$g-head-left-width: 15%;
+$g-head-right-width: 85%;
 $g-head-left-bg-color: white;
 $g-head-right-bg-color: white;
 
 // 中间
-$g-content-height: 80%;
+$g-content-height: 79%;
 $g-content-left-width: 15%;
 $g-content-middle-width: 70%;
 $g-content-right-width: 15%;
@@ -22,11 +22,11 @@ $g-footer-bg-color: white;
 
 // 通用样式
 .cbm_title {
-  font-size: 30px;
+  font-size: 3em;
   font-family:"Times New Roman", Times, serif;
 }
 .cbm-sign-in {
-  font-size: 15px;
+  font-size: 1.5em;
   font-family:"Times New Roman", Times, serif;
 }
 
